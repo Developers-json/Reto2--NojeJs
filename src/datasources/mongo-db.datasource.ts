@@ -3,8 +3,8 @@ import {juggler} from '@loopback/repository';
 
 const config = {
   name: 'mongoDB',
-  connector: 'mongodb+srv://rot:1@mintic01.k4mvd.mongodb.net/TiendaDB?retryWrites=true&w=majority',
-  url: '',
+  connector: 'mongoDB',
+  url: 'mongodb+srv://rot:1@mintic01.k4mvd.mongodb.net/PedidosDB?retryWrites=true&w=majority',
   host: '',
   port: 0,
   user: '',
